@@ -115,7 +115,7 @@ epochs = range(1, len(acc) + 1)
 
 
 # 绘制损失函数曲线
-# "bo"代表‘蓝点’
+# "bo"代表'蓝点'
 plt.plot(epochs, loss, 'bo', label='Training loss')
 # b 代表‘蓝色直线’
 plt.plot(epochs, val_loss, 'b', label='Validation loss')
