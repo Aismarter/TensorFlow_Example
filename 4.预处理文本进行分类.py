@@ -101,6 +101,7 @@ print(results)
 # 创建一个准确率（accuracy）和损失值（loss）随时间变化的图表
 
 # model.fit() 返回一个 History 对象，该对象包含一个字典，其中包含训练阶段所发生的一切事件：
+
 history_dict = history.history
 print(history_dict.keys())
 
